@@ -1,0 +1,20 @@
+{
+  "name": "mockdata",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "bun run --hot src/server.js",
+    "build": "bun build src/server.js --outdir=dist --target=bun --sourcemap=linked",
+    "start": "bun run dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0"
+  }
+}
